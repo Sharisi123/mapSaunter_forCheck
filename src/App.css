@@ -1,0 +1,10 @@
+.app {
+	border: 1px solid rgb(228, 225, 225);
+	max-width: 1200px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-rows: 1fr 10fr;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	background: linear-gradient();
+}

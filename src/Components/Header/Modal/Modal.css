@@ -1,0 +1,60 @@
+.modal-backgrond {
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(0, 0, 0, 0.4);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	transition: 0.5s ease-in-out;
+}
+.modal-path {
+	/* margin-top: 20px; */
+	z-index: 4;
+	padding: 20px;
+	border-radius: 12px;
+	background-color: #fff;
+	height: 90%;
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-rows: 1fr 10fr;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+}
+.modal-close {
+	cursor: pointer;
+}
+.modal-add-path-btn {
+	right: 0;
+	position: absolute;
+}
+.modal-content {
+	border: none;
+	padding: 20px;
+	background: rgb(237, 237, 237);
+	background: linear-gradient(
+		90deg,
+		rgba(237, 237, 237, 1) 0%,
+		rgba(250, 249, 249, 1) 50%,
+		rgba(250, 246, 242, 1) 100%
+	);
+}
+.modal-input-title {
+	font-weight: 600;
+	font-size: 20px;
+}
+input,
+textarea {
+	width: 90%;
+	border-radius: 5px;
+}
+.modal-full-description textarea {
+	min-height: 100px;
+}
+input[type="text"],
+textarea[type="text"] {
+	padding: 10px;
+	border: 0;
+	box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
