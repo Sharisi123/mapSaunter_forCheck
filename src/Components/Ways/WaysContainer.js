@@ -17,9 +17,9 @@ class WaysContainer extends React.Component {
 	componentDidMount() {
 		this.props.getDirectionsToRender()
 	}
-	// componentDidUpdate() {
-	// 	this.props.getDirectionsToRender()
-	// }
+	componentDidUpdate() {
+		this.props.getDirectionsToRender()
+	}
 
 	render() {
 		return (
